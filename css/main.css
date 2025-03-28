@@ -1,0 +1,179 @@
+
+.body{
+    background-color:
+    #F8F9FA;
+}
+
+/* nav */
+.navbar-nav li {
+  position: relative;
+}
+
+.navbar-nav li::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: transparent;
+  transition: width 0.5s ease; /* Smooth transition for width */
+}
+
+.navbar-nav li:hover::after {
+  width: 100%; /* Extend to 100% width on hover */
+  background-color: #fff; /* Change this to your desired color */
+}
+
+
+img{
+    height: 300px;
+}
+.hero{
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+}
+.hero .hero-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.testmonial img{
+    width: 80px;
+    height: 80px;
+
+}
+/* blog */
+.blogs.porto h1::after{
+  content: "";
+  width: 5%;
+  height: 5px;
+  background-color: #147bdb;
+  position: absolute;
+  bottom:-15px;
+
+}
+.carousel-indicators [data-bs-target] {
+  width: 12px; /* Adjust width and height as needed */
+  height: 12px;
+  border-radius: 50%; /* Make the button circular */
+  border: 2px  black; /* Add a 2px solid border */
+  background-color: white; /* Set background color */
+  margin: 0 5px; /* Add margin between buttons */
+}
+.w-90{
+    width: 90%;
+}
+.testimoials{
+    background-image: linear-gradient(rgb(0, 122, 255,0.5),rgb(0, 122, 255,0.7)), url(.//images/overlay-bg.jpg);
+    background-position:center ;
+  
+} 
+.size{
+    width: 50px;
+    height: 50px;
+}
+
+.overlay{
+    background-image: linear-gradient(rgb(0, 122, 255,0.5),rgb(0, 122, 255,0.7)), url(.//images/overlay-bg.jpg);
+    background-position:center ;
+}
+.about-me h2::after{
+    content: "";
+    width: 20%;
+    height: 3px;
+    background-color: #147bdb;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+.circle {
+ width: 70px;
+ height: 70px;
+}
+
+  
+  .service-ico-circle i {
+    font-size: 2rem;
+  } 
+  .service-ico-circle {
+    width: 100px;
+    height: 100px;
+    border: 8px solid  #0078FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .service-ico-circle:hover {
+    background-color: #0078FF; /* Change background color on hover */
+  }
+  
+  .service-ico-circle i {
+    font-size: 2rem;
+    transition: color 0.3s; /* Smooth transition for icon color */
+  }
+  
+  .service-ico-circle:hover i {
+    color: white; /* Change icon color on hover */
+  }
+  /* services */
+  .services h1::after{
+    content: "";
+    width: 5%;
+    height: 5px;
+    background-color: #147bdb;
+    position: absolute;
+    bottom:-15px;
+  
+}
+/* portofolio */
+.porto h3::after{
+  content: "";
+  width: 10%;
+  height: 5px;
+  background-color: #147bdb;
+  position: absolute;
+  bottom:15px;
+  left: 45%;
+}
+/* counter */
+.counter {
+  background-image: linear-gradient(to bottom, rgba(0, 122, 255, 0.5), rgba(0, 122, 255, 0.7)), url(../images/counters-bg.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+
+.counter-ico {
+  width: 100px;
+  height: 100px;
+  border: 8px solid  #CDE1F8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+.section-counter {
+  height: 50vh; 
+}
+/* button */
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 3px solid  #2981e6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+/* social */
+.socials ul li{
+  margin-right: 10px;
+}
